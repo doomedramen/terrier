@@ -1,0 +1,21 @@
+{
+  "name": "terrier",
+  "version": "0.0.0",
+  "authors": [
+    "Martin Page <wookoouk@gmail.com>"
+  ],
+  "main": "less/terrier.less",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "slideout.js": "~0.1.9",
+    "font-awesome": "~4.3.0"
+  }
+}
