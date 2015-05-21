@@ -1,17 +1,22 @@
 {
   "name": "terrier",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "authors": [
     "Martin Page <wookoouk@gmail.com>"
   ],
-  "main": "less/terrier.less",
+  "main": [
+    "less/terrier.less",
+    "dist/terrier.js"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "package.json",
+    "gulpfile.js"
   ],
   "dependencies": {
     "jquery": "~2.1.4",

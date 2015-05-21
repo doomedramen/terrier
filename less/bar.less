@@ -1,19 +1,35 @@
 .bar {
-  background: @c1;
+  color: #fff;
   z-index: 300;
   height: 5rem;
   line-height: 5rem;
   position: relative;
   margin-bottom: 0;
+  //padding-top: 8px;
+  //padding-bottom: 8px;
   .menuButton {
     font-size: 40px;
     float: left;
     padding-right: 8px;
-    color: #fff;
   }
   .name {
-    color: white;
     font-weight: 700;
     font-size: 40px;
+  }
+  .social {
+    float: left;
+    i{
+      margin-right: 12px;
+    }
+  }
+  i.search {
+    padding-left: 24px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .bar .social {
+    display: none;
   }
 }
