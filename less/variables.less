@@ -1,9 +1,9 @@
 @light-grey: #e1e1e1;
 @dark-grey: #333;
 @primary-color: #33c3f0;
-@secondary-color: lighten(@dark-grey, 13.5%);
+@secondary-color: lighten(@dark-grey, @darken-global);
 @border-color: #bbb;
-@link-color: #1eaedb;
+@link-color: darken(@primary-color,@darken-global);
 @font-color: #222;
 @bar-color: #4285f4;
 @bg-color: #FFFFFF;
