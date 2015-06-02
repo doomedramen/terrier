@@ -492,6 +492,12 @@ h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 a {
   color: #1eaedb;
   text-decoration: none;
