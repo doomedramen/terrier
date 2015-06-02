@@ -1,6 +1,6 @@
 {
   "name": "terrier",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "authors": [
     "Martin Page <wookoouk@gmail.com>"
   ],
@@ -19,8 +19,6 @@
     "gulpfile.js"
   ],
   "dependencies": {
-    "jquery": "~2.1.4",
-    "slideout.js": "~0.1.9",
-    "font-awesome": "~4.3.0"
+    "jquery": "~2.1.4"
   }
 }
