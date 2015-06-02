@@ -630,6 +630,7 @@ select {
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
+  width: 100%;
 }
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
@@ -643,6 +644,7 @@ input[type="password"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  width: 100%;
 }
 textarea {
   -webkit-appearance: none;
