@@ -802,7 +802,11 @@ hr {
   padding: 8px 0;
   background-color: #4285f4;
   font-size: 30px;
-  line-height: 30px;
+  height: 64px;
+  line-height: 64px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .bar a {
   color: #FFFFFF;
@@ -836,10 +840,11 @@ hr {
   background-color: #4285f4;
   padding: 8px 0;
   font-size: 30px;
-  line-height: 30px;
+  height: 64px;
+  line-height: 64px;
 }
 #menu header img {
-  height: 30px;
+  height: 60px;
   width: auto;
   float: left;
   padding: 2px;
@@ -859,10 +864,10 @@ hr {
   color: #000000;
 }
 #menu ul li a i {
-  margin-left: 7px;
+  margin-left: 22px;
 }
 #menu ul li a span {
-  margin-left: 28px;
+  margin-left: 40px;
 }
 #menu ul li:hover,
 #menu ul li:active,
@@ -875,8 +880,9 @@ hr {
   color: #4285f4;
 }
 .menuOpen #menu {
-  -webkit-box-shadow: -10px 0 10px 10px rgba(0, 0, 0, 0.6);
-  box-shadow: -10px 0 10px 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
