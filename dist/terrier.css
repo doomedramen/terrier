@@ -461,6 +461,14 @@ html,
 body {
   background: #ffffff;
 }
+::selection {
+  background: #9B59B6;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #9B59B6;
+  /* Gecko Browsers */
+}
 h1,
 h2,
 h3,
