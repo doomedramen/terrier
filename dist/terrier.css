@@ -1014,6 +1014,26 @@ img.desaturate {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+.tile {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #33c3f0;
+  font-size: 20px;
+  text-align: center;
+}
+.tile i {
+  text-align: left;
+  float: left;
+}
+.tile:hover,
+.tile:focus {
+  background: #10aee0;
+}
 #footer {
   position: fixed;
   left: 0;
