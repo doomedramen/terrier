@@ -1058,10 +1058,12 @@ img.desaturate {
   background: #10aee0;
 }
 #footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   height: 24px;
   width: 100%;
   background: #ffffff;
+}
+#footer .fixed {
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
