@@ -855,9 +855,7 @@ hr {
 }
 .bar .menuButton {
   float: left;
-}
-.bar .name {
-  margin-left: 24px;
+  margin-right: 24px;
 }
 #menu {
   z-index: 200;
