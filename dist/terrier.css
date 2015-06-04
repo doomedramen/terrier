@@ -736,6 +736,13 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal;
 }
+.checkbox,
+.radio {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 ul {
   list-style: circle inside;
 }
