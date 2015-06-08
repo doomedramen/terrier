@@ -749,11 +749,6 @@ select:required:not(:valid),
 textarea:required:not(:valid) {
   border-color: #ed5565;
 }
-input:required:valid,
-select:required:valid,
-textarea:required:valid {
-  border-color: #a0d468;
-}
 ul {
   list-style: circle inside;
 }
