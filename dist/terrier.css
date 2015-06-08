@@ -741,8 +741,6 @@ label > .label-body {
 .radio {
   position: relative;
   display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 *:required:not(:valid) {
   border-color: #ed5565;
