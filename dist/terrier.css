@@ -744,6 +744,12 @@ label > .label-body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+input:required:not(:valid) {
+  border-color: #a3d36d;
+}
+input:required:valid {
+  border-color: #fb6d57;
+}
 ul {
   list-style: circle inside;
 }
