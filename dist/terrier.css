@@ -745,10 +745,10 @@ label > .label-body {
   margin-bottom: 10px;
 }
 input:required:not(:valid) {
-  border-color: #a3d36d;
+  border-color: #fb6d57;
 }
 input:required:valid {
-  border-color: #fb6d57;
+  border-color: #a3d36d;
 }
 ul {
   list-style: circle inside;
