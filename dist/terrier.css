@@ -744,9 +744,7 @@ label > .label-body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-input:required:not(:valid),
-select:required:not(:valid),
-textarea:required:not(:valid) {
+*:required:not(:valid) {
   border-color: #ed5565;
 }
 ul {
