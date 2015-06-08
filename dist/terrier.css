@@ -749,9 +749,7 @@ label > .label-body {
 }
 *:required:after {
   color: #ed5565;
-  position: relative;
   content: '*';
-  right: 8px;
 }
 ul {
   list-style: circle inside;
