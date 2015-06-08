@@ -94,7 +94,7 @@ label > .label-body {
   border-color: @error;
 }
 
-*:required:after {
+*:required:not(:valid) {
   color: @error;
   content: '*';
 }
