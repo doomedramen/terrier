@@ -747,6 +747,12 @@ label > .label-body {
 *:required:not(:valid) {
   border-color: #ed5565;
 }
+*:required {
+  color: #ed5565;
+  position: relative;
+  content: '*';
+  right: 8px;
+}
 ul {
   list-style: circle inside;
 }

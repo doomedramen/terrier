@@ -94,6 +94,13 @@ label > .label-body {
   border-color: @error;
 }
 
+*:required {
+  color: @error;
+  position: relative;
+  content: '*';
+  right: 8px;
+}
+
 //input:required:not(:valid), select:required:not(:valid), textarea:required:not(:valid) {
 //border-color: @error;
 //}
