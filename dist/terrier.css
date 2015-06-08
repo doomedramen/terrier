@@ -540,18 +540,18 @@ h6 {
   margin-bottom: 10px;
 }
 a {
-  color: #10aee0;
+  color: #3bafda;
   text-decoration: none;
 }
 a:hover {
-  color: #0f9cc8;
+  color: #28a5d4;
 }
 .button,
 button {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #4d4d4d;
+  color: #5d9cec;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -562,7 +562,7 @@ button {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #ccd1d9;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -572,7 +572,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #4d4d4d;
+  color: #5d9cec;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -583,74 +583,74 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #ccd1d9;
   cursor: pointer;
   box-sizing: border-box;
 }
 .button:hover,
 button:hover {
-  color: #333333;
-  border-color: #888888;
+  color: #656d78;
+  border-color: #bec3c9;
   outline: 0;
 }
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  color: #333333;
-  border-color: #888888;
+  color: #656d78;
+  border-color: #bec3c9;
   outline: 0;
 }
 .button:focus,
 button:focus {
-  color: #333333;
-  border-color: #888888;
+  color: #656d78;
+  border-color: #bec3c9;
   outline: 0;
 }
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333333;
-  border-color: #888888;
+  color: #656d78;
+  border-color: #bec3c9;
   outline: 0;
 }
 .button.button-primary,
 button.button-primary {
   color: #fff;
-  background-color: #33c3f0;
-  border-color: #33c3f0;
+  background-color: #4fc1e9;
+  border-color: #4fc1e9;
 }
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #fff;
-  background-color: #33c3f0;
-  border-color: #33c3f0;
+  background-color: #4fc1e9;
+  border-color: #4fc1e9;
 }
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
-  background-color: #10aee0;
-  border-color: #10aee0;
+  background-color: #3bafda;
+  border-color: #3bafda;
 }
 input[type="submit"].button-primary:hover,
 input[type="reset"].button-primary:hover,
 input[type="button"].button-primary:hover {
   color: #fff;
-  background-color: #10aee0;
-  border-color: #10aee0;
+  background-color: #3bafda;
+  border-color: #3bafda;
 }
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
-  background-color: #10aee0;
-  border-color: #10aee0;
+  background-color: #3bafda;
+  border-color: #3bafda;
 }
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #fff;
-  background-color: #10aee0;
-  border-color: #10aee0;
+  background-color: #3bafda;
+  border-color: #3bafda;
 }
 input[type="email"],
 input[type="number"],
@@ -662,7 +662,7 @@ input[type="password"] {
   height: 38px;
   padding: 6px 10px;
   background-color: #fff;
-  border: 1px solid #d1d1d1;
+  border: 1px solid #e6e8ec;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
@@ -673,7 +673,7 @@ select {
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
-  border: 1px solid #d1d1d1;
+  border: 1px solid #e6e8ec;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
@@ -708,12 +708,12 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #4fc1e9;
   outline: 0;
 }
 textarea:focus,
 select:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #4fc1e9;
   outline: 0;
 }
 label,
@@ -745,10 +745,10 @@ label > .label-body {
   margin-bottom: 10px;
 }
 input:required:not(:valid) {
-  border-color: #fb6d57;
+  border-color: #ed5565;
 }
 input:required:valid {
-  border-color: #a3d36d;
+  border-color: #a0d468;
 }
 ul {
   list-style: circle inside;
@@ -780,8 +780,8 @@ code {
   margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #f1f1f1;
-  border: 1px solid #e1e1e1;
+  background: #ffffff;
+  border: 1px solid #f5f7fa;
   border-radius: 4px;
 }
 pre > code {
@@ -793,7 +793,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #f5f7fa;
 }
 th:first-child,
 td:first-child {
@@ -831,7 +831,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #e1e1e1;
+  border-top: 1px solid #f5f7fa;
 }
 .colExample {
   padding: 8px;
@@ -851,7 +851,7 @@ hr {
 }
 .bar {
   padding: 8px 0;
-  background-color: #33c3f0;
+  background-color: #4fc1e9;
   font-size: 30px;
   color: #FFFFFF;
   height: 64px;
@@ -887,7 +887,7 @@ hr {
 }
 #menu header {
   color: #FFFFFF;
-  background-color: #33c3f0;
+  background-color: #4fc1e9;
   padding: 8px 0;
   font-size: 30px;
   height: 64px;
@@ -1055,7 +1055,7 @@ img.desaturate {
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: #33c3f0;
+  background: #4fc1e9;
   font-size: 20px;
   text-align: center;
 }
@@ -1065,7 +1065,7 @@ img.desaturate {
 }
 .tile:hover,
 .tile:focus {
-  background: #10aee0;
+  background: #3bafda;
 }
 #footer {
   height: 24px;
