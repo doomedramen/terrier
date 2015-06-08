@@ -90,10 +90,10 @@ label > .label-body {
   margin-bottom: 10px;
 }
 
-input:required:not(:valid) {
+input:required:not(:valid), select:required:not(:valid), textarea:required:not(:valid) {
   border-color: @error;
 }
 
-input:required:valid {
+input:required:valid, select:required:valid, textarea:required:valid {
   border-color: @success;
 }
