@@ -747,7 +747,7 @@ label > .label-body {
 *:required:not(:valid) {
   border-color: #ed5565;
 }
-*:required {
+*:required:after {
   color: #ed5565;
   position: relative;
   content: '*';
