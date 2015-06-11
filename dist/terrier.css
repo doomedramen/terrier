@@ -619,31 +619,39 @@ button.button-primary {
   background-color: #4fc1e9;
   border-color: #4fc1e9;
 }
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  color: #fff;
-  background-color: #4fc1e9;
-  border-color: #4fc1e9;
-}
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
   background-color: #3bafda;
   border-color: #3bafda;
 }
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover {
+.button.button-success,
+button.button-success {
   color: #fff;
-  background-color: #3bafda;
-  border-color: #3bafda;
+  background-color: #a0d468;
+  border-color: #a0d468;
 }
-.button.button-primary:focus,
-button.button-primary:focus {
+.button.button-success:hover,
+button.button-success:hover,
+.button.button-success:focus,
+button.button-success:focus {
   color: #fff;
-  background-color: #3bafda;
-  border-color: #3bafda;
+  background-color: #8cc152;
+  border-color: #8cc152;
+}
+.button.button-error,
+button.button-error {
+  color: #fff;
+  background-color: #ed5565;
+  border-color: #ed5565;
+}
+.button.button-error:hover,
+button.button-error:hover,
+.button.button-error:focus,
+button.button-error:focus {
+  color: #fff;
+  background-color: #da4453;
+  border-color: #da4453;
 }
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
@@ -821,6 +829,9 @@ form {
 }
 .center {
   text-align: center;
+}
+.bold {
+  font-weight: 900;
 }
 hr {
   margin-top: 3rem;
