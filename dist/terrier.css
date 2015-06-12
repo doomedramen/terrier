@@ -783,9 +783,9 @@ code {
   margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #ffffff;
-  border: 1px solid #f5f7fa;
-  border-radius: 4px;
+  background: #ccd1d9;
+  border: 1px solid #aab2bd;
+  border-radius: #aab2bd;
 }
 pre > code {
   display: block;
@@ -796,7 +796,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #f5f7fa;
+  border-bottom: 1px solid #ccd1d9;
 }
 th:first-child,
 td:first-child {
@@ -842,7 +842,7 @@ hr {
 .colExample {
   padding: 8px;
   text-align: center;
-  border: 1px solid #222222;
+  border: 1px dashed #ccd1d9;
 }
 .heart {
   color: #E74C3C;
@@ -1089,7 +1089,7 @@ img.center {
 #footer {
   height: 24px;
   width: 100%;
-  background: #ffffff;
+  background: #f5f7fa;
 }
 #footer .fixed {
   position: fixed;
