@@ -1101,15 +1101,13 @@ img.center {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  color: white;
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  background: #4fc1e9;
   font-size: 20px;
   text-align: center;
-}
-.tile-primary {
-  background: #4fc1e9;
-  color: white;
 }
 .tile i {
   text-align: left;
@@ -1123,6 +1121,12 @@ img.center {
   background-color: transparent;
   color: #656d78;
   border: 1px dashed #656d78;
+}
+.border {
+  border: 1px solid #ccd1d9;
+}
+.border-primary {
+  border: 1px solid #4fc1e9;
 }
 #footer {
   height: 24px;
