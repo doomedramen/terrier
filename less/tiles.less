@@ -3,16 +3,18 @@
   -moz-border-radius: @global-radius;
   border-radius: @global-radius;
 
-  color: white;
-
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: @primary-color;
 
   font-size: 20px;
 
   text-align: center;
+}
+
+.tile-primary {
+  background: @primary-color;
+  color: white;
 }
 
 .tile i {
@@ -25,7 +27,7 @@
 }
 
 .tile.disabled {
-  background-color:transparent;
+  background-color: transparent;
   color: @dark-grey;
   border: 1px dashed @dark-grey;
 
