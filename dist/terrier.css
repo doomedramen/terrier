@@ -774,7 +774,7 @@ label > .label-body {
   display: block;
 }
 *:required:not(:valid) {
-  border-color: #ed5565;
+  border-color: #434a54;
 }
 ul {
   list-style: circle inside;
