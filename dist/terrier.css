@@ -1129,7 +1129,13 @@ img.center {
   border-radius: 4px;
 }
 .border-primary {
-  border: 1px solid #4fc1e9;
+  border-color: #4fc1e9;
+}
+.border-success {
+  border-color: #a0d468;
+}
+.border-error {
+  border-color: #ed5565;
 }
 #footer {
   height: 24px;
