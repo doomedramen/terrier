@@ -784,8 +784,8 @@ label > .label-body {
 }
 .help {
   display: block;
-  margin: 0 0 .5rem;
-  color: #737373;
+  margin: 0;
+  color: #656d78;
 }
 ul {
   list-style: circle inside;
