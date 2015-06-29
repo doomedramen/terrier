@@ -456,8 +456,12 @@ th {
 .row > .col6:nth-of-type(2n + 3).auto-clear {
   clear: left;
 }
-* {
-  box-shadow: inset 0px 0px 0px 1px #f00;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 * {
   -webkit-tap-highlight-color: transparent;
@@ -471,7 +475,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Lato', Calibri, Arial, sans-serif;
-  color: #222222;
+  color: #444444;
   -webkit-font-smoothing: antialiased;
 }
 html,
@@ -614,73 +618,73 @@ input[type="button"]:focus {
   border-color: #bec3c9;
   outline: 0;
 }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
+.button.primary,
+button.primary,
+input[type="submit"].primary,
+input[type="reset"].primary,
+input[type="button"].primary {
   color: #fff;
   background-color: #4fc1e9;
   border-color: #4fc1e9;
 }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover {
+.button.primary:hover,
+button.primary:hover,
+input[type="submit"].primary:hover,
+input[type="reset"].primary:hover,
+input[type="button"].primary:hover {
   color: #fff;
   background-color: #3bafda;
   border-color: #3bafda;
 }
-.button.button-success,
-button.button-success,
-input[type="submit"].button-success,
-input[type="reset"].button-success,
-input[type="button"].button-success {
+.button.success,
+button.success,
+input[type="submit"].success,
+input[type="reset"].success,
+input[type="button"].success {
   color: #fff;
   background-color: #a0d468;
   border-color: #a0d468;
 }
-.button.button-success:hover,
-button.button-success:hover,
-input[type="submit"].button-success:hover,
-input[type="reset"].button-success:hover,
-input[type="button"].button-success:hover,
-.button.button-success:focus,
-button.button-success:focus,
-input[type="submit"].button-success:focus,
-input[type="reset"].button-success:focus,
-input[type="button"].button-success:focus {
+.button.success:hover,
+button.success:hover,
+input[type="submit"].success:hover,
+input[type="reset"].success:hover,
+input[type="button"].success:hover,
+.button.success:focus,
+button.success:focus,
+input[type="submit"].success:focus,
+input[type="reset"].success:focus,
+input[type="button"].success:focus {
   color: #fff;
   background-color: #8cc152;
   border-color: #8cc152;
 }
-.button.button-error,
-button.button-error,
-input[type="submit"].button-error,
-input[type="reset"].button-error,
-input[type="button"].button-error {
+.button.error,
+button.error,
+input[type="submit"].error,
+input[type="reset"].error,
+input[type="button"].error {
   color: #fff;
   background-color: #ed5565;
   border-color: #ed5565;
 }
-.button.button-error:hover,
-button.button-error:hover,
-input[type="submit"].button-error:hover,
-input[type="reset"].button-error:hover,
-input[type="button"].button-error:hover,
-.button.button-error:focus,
-button.button-error:focus,
-input[type="submit"].button-error:focus,
-input[type="reset"].button-error:focus,
-input[type="button"].button-error:focus {
+.button.error:hover,
+button.error:hover,
+input[type="submit"].error:hover,
+input[type="reset"].error:hover,
+input[type="button"].error:hover,
+.button.error:focus,
+button.error:focus,
+input[type="submit"].error:focus,
+input[type="reset"].error:focus,
+input[type="button"].error:focus {
   color: #fff;
   background-color: #da4453;
   border-color: #da4453;
 }
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
+input[type="submit"].primary:focus,
+input[type="reset"].primary:focus,
+input[type="button"].primary:focus {
   color: #fff;
   background-color: #3bafda;
   border-color: #3bafda;
@@ -893,6 +897,7 @@ hr {
 }
 .bar .menuButton:hover {
   cursor: pointer;
+  color: #3bafda;
 }
 .bar ul li {
   margin-left: 15px;
@@ -918,17 +923,18 @@ hr {
 #menu ul li {
   width: 100%;
   margin: 0;
+  height: 64px;
 }
 #menu ul li a {
-  padding: 16px 16px 16px 12px;
+  padding: 18px 16px 18px 12px;
   display: block;
   color: #000000;
 }
 #menu ul li a i {
-  margin-left: 6px;
+  margin-left: 18px;
 }
 #menu ul li a span {
-  margin-left: 35px;
+  margin-left: 26px;
 }
 #menu ul li:hover,
 #menu ul li:active,
@@ -938,7 +944,7 @@ hr {
 #menu ul li:hover a,
 #menu ul li:active a,
 #menu ul li .active a {
-  color: #4285f4;
+  color: #4fc1e9;
 }
 #panel:after {
   position: absolute;
@@ -1107,6 +1113,7 @@ img.center {
   -moz-border-radius: 4px;
   border-radius: 4px;
   color: white;
+  display: block;
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1121,6 +1128,7 @@ img.center {
 .tile:hover,
 .tile:focus {
   background: #3bafda;
+  color: white;
 }
 .tile.disabled {
   background-color: transparent;
