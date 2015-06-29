@@ -782,6 +782,12 @@ label > .label-body {
 *:required:not(:valid) {
   border-color: #434a54;
 }
+.help {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
 ul {
   list-style: circle inside;
 }
@@ -844,7 +850,6 @@ blockquote,
 dl,
 figure,
 table,
-p,
 ul,
 ol,
 form {
@@ -1158,6 +1163,5 @@ img.center {
 }
 #footer .fixed {
   position: fixed;
-  left: 0;
   bottom: 0;
 }
