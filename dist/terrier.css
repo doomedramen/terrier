@@ -811,9 +811,6 @@ label > .label-body {
   position: relative;
   display: block;
 }
-*:required:not(:valid) {
-  border-color: #434a54;
-}
 .help {
   display: block;
   margin: 0;
