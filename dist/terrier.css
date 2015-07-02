@@ -723,6 +723,9 @@ input[type="password"] {
   box-shadow: none;
   box-sizing: border-box;
 }
+.form-row {
+  margin-bottom: 1.5rem;
+}
 textarea,
 select {
   height: 34px;
@@ -785,7 +788,7 @@ select:focus {
 label,
 legend {
   display: block;
-  margin-bottom: .5rem;
+  margin-bottom: .25rem;
   font-weight: 600;
 }
 fieldset {
