@@ -724,7 +724,7 @@ input[type="password"] {
   box-sizing: border-box;
 }
 .form-row {
-  margin-bottom: 1.5rem;
+  margin-bottom: .8rem;
 }
 textarea,
 select {
@@ -931,6 +931,9 @@ hr {
   height: 64px;
   line-height: 64px;
 }
+.bar h1 {
+  margin: 0;
+}
 .bar .menuButton {
   float: left;
   font-size: 32px;
@@ -1056,42 +1059,6 @@ hr {
     transition: opacity 0.5s;
     cursor: pointer;
   }
-}
-.c1 {
-  color: #1abc9c;
-}
-.c1Dark {
-  color: #169d82;
-}
-.bgC1 {
-  background-color: #1abc9c;
-}
-.bgC1Dark {
-  background-color: #169d82;
-}
-.c2 {
-  color: #2ecc71;
-}
-.c2Dark {
-  color: #27af61;
-}
-.bgC2 {
-  background-color: #2ecc71;
-}
-.bgC2Dark {
-  background-color: #27af61;
-}
-.c3 {
-  color: #3498db;
-}
-.c3Dark {
-  color: #2386c8;
-}
-.bgC3 {
-  background-color: #3498db;
-}
-.bgC3Dark {
-  background-color: #2386c8;
 }
 .slideout-menu {
   position: fixed;
