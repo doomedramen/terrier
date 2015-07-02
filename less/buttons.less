@@ -5,7 +5,7 @@ button {
   padding: 0 30px;
   color: @secondary-color;
   text-align: center;
-  font-size: 11px;
+  font-size: .7rem;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
@@ -28,7 +28,7 @@ input {
     padding: 0 30px;
     color: @secondary-color;
     text-align: center;
-    font-size: 11px;
+    font-size: .7rem;
     font-weight: 600;
     line-height: 38px;
     letter-spacing: .1rem;
@@ -78,14 +78,15 @@ input {
 }
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  .button-hover();
   &.primary {
     color: #fff;
     background-color: @primary-color;
     border-color: @primary-color;
     &:hover {
       color: #fff;
-      background-color: @link-color;
-      border-color: @link-color;
+      background-color: @primary-color-dark;
+      border-color: @primary-color-dark;
     }
   }
   &.success {

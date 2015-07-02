@@ -11,6 +11,10 @@ select {
   width: 100%;
 }
 
+input[type="file"] {
+  width: 100%;
+}
+
 /* Removes awkward default styles on some inputs for iOS */
 input {
   &[type="email"],
@@ -48,6 +52,13 @@ input {
     border: 1px solid @primary-color;
     outline: 0;
   }
+}
+
+input[disabled], textarea[disabled] {
+  background: #edf3f7;
+  cursor: not-allowed;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 textarea:focus,
