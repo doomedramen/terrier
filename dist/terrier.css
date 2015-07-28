@@ -922,6 +922,7 @@ hr {
   clear: both;
 }
 .bar {
+  overflow: hidden;
   color: #ffffff;
   padding: 0;
   background-color: #4fc1e9;
@@ -1006,6 +1007,14 @@ hr {
   -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
   transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
 }
+.bar,
+#menu {
+  color: #FFFFFF;
+  background-color: #4fc1e9;
+  font-size: 30px;
+  height: 64px;
+  line-height: 64px;
+}
 .bar ul li,
 #menu ul li {
   position: relative;
@@ -1021,16 +1030,8 @@ hr {
   color: #FFFFFF;
   display: block;
 }
-.bar header,
-#menu header {
-  color: #FFFFFF;
-  background-color: #4fc1e9;
-  font-size: 30px;
-  height: 64px;
-  line-height: 64px;
-}
-.bar header img,
-#menu header img {
+.bar img,
+#menu img {
   height: 54px;
   width: auto;
   float: left;

@@ -1,4 +1,5 @@
 .bar {
+  overflow: hidden;
   color: #ffffff;
   //color:@primary-color-dark;
   //color: darken(@primary-color,20%);
@@ -91,6 +92,13 @@
 }
 
 .bar, #menu {
+
+  color: #FFFFFF;
+  background-color: @bar-color;
+  font-size: 30px;
+  height: 64px;
+  line-height: 64px;
+
   ul li {
     position: relative;
     display: block;
@@ -108,19 +116,19 @@
     display: block;
   }
 
-  header {
-    color: #FFFFFF;
-    background-color: @bar-color;
-    font-size: 30px;
-    height: 64px;
-    line-height: 64px;
+  //header {
+  //  color: #FFFFFF;
+  //  background-color: @bar-color;
+  //  font-size: 30px;
+  //  height: 64px;
+  //  line-height: 64px;
     img {
       height: 54px;
       width: auto;
       float: left;
       margin: 5px 15px 5px 0;
     }
-  }
+  //}
 
 }
 
