@@ -1422,9 +1422,21 @@ input.toggle-round + label:after {
   transition: margin 0.4s, background 0.4s;
 }
 input.toggle-round:checked + label {
+  background-color: #4fc1e9;
+}
+input.toggle-round:checked + label.success {
   background-color: #a0d468;
+}
+input.toggle-round:checked + label.error {
+  background-color: #ed5565;
 }
 input.toggle-round:checked + label:after {
   margin-left: 30px;
+  background-color: #4fc1e9;
+}
+input.toggle-round:checked + label:after.success {
   background-color: #a0d468;
+}
+input.toggle-round:checked + label:after.error {
+  background-color: #ed5565;
 }
