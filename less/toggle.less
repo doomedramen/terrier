@@ -3,6 +3,7 @@
   margin-left: -9999px;
   visibility: hidden;
 }
+
 .toggle + label {
   display: block;
   position: relative;
@@ -29,11 +30,13 @@ input.toggle-round + label {
   -o-transition: background 0.4s;
   transition: background 0.4s;
 }
+
 input.toggle-round + label:before, input.toggle-round + label:after {
   display: block;
   position: absolute;
   content: "";
 }
+
 input.toggle-round + label:before {
   top: 2px;
   left: 2px;
@@ -50,6 +53,7 @@ input.toggle-round + label:before {
   -o-transition: background 0.4s;
   transition: background 0.4s;
 }
+
 input.toggle-round + label:after {
   top: 4px;
   left: 4px;
@@ -66,10 +70,24 @@ input.toggle-round + label:after {
   -o-transition: margin 0.4s, background 0.4s;
   transition: margin 0.4s, background 0.4s;
 }
+
 input.toggle-round:checked + label {
-  background-color: @success;
+  background-color: @primary-color;
+  &.success {
+    background-color: @success;
+  }
+  &.error {
+    background-color: @error;
+  }
 }
+
 input.toggle-round:checked + label:after {
   margin-left: 30px;
-  background-color: @success;
+  background-color: @primary-color;
+  &.success {
+    background-color: @success;
+  }
+  &.error {
+    background-color: @error;
+  }
 }
