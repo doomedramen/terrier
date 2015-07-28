@@ -1355,7 +1355,7 @@ img.center {
 }
 .toggle {
   position: relative;
-  width: 116px;
+  width: 60px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1367,58 +1367,35 @@ img.center {
   display: block;
   overflow: hidden;
   cursor: pointer;
-  border: 2px solid #FFFFFF;
-  border-radius: 50px;
-}
-.toggle-inner {
-  display: block;
-  width: 200%;
-  margin-left: -100%;
-  transition: margin 0.3s ease-in 0s;
-}
-.toggle-inner:before,
-.toggle-inner:after {
-  display: block;
-  float: left;
-  width: 50%;
-  height: 41px;
+  height: 36px;
   padding: 0;
-  line-height: 41px;
-  font-size: 25px;
-  color: white;
-  font-weight: bold;
-  box-sizing: border-box;
+  line-height: 36px;
+  border: 2px solid #CCCCCC;
+  border-radius: 36px;
+  background-color: #FFFFFF;
+  transition: background-color 0.3s ease-in;
 }
-.toggle-inner:before {
-  content: "ON";
-  padding-left: 14px;
-  background-color: #EEEEEE;
-  color: #34A7C1;
-}
-.toggle-inner:after {
-  content: "OFF";
-  padding-right: 14px;
-  background-color: #EEEEEE;
-  color: #999999;
-  text-align: right;
-}
-.toggle-switch {
+.toggle-label:before {
+  content: "";
   display: block;
-  width: 38px;
-  margin: 1.5px;
-  background: #A1A1A1;
+  width: 36px;
+  margin: 0px;
+  background: #FFFFFF;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 71px;
-  border: 2px solid #FFFFFF;
-  border-radius: 50px;
+  right: 22px;
+  border: 2px solid #CCCCCC;
+  border-radius: 36px;
   transition: all 0.3s ease-in 0s;
 }
-.toggle-checkbox:checked + .toggle-label .toggle-inner {
-  margin-left: 0;
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #49E845;
 }
-.toggle-checkbox:checked + .toggle-label .toggle-switch {
+.toggle-checkbox:checked + .toggle-label,
+.toggle-checkbox:checked + .toggle-label:before {
+  border-color: #49E845;
+}
+.toggle-checkbox:checked + .toggle-label:before {
   right: 0px;
-  background-color: #34A7C1;
 }
