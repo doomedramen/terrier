@@ -93,12 +93,16 @@
 
 .bar, #menu {
 
+  header{
   color: #FFFFFF;
   background-color: @bar-color;
   font-size: 30px;
   height: 64px;
   line-height: 64px;
-
+    h1{
+      float: left;
+    }
+  }
   ul li {
     position: relative;
     display: block;
@@ -123,6 +127,14 @@
     margin: 5px 15px 5px 0;
   }
 
+}
+
+#menu {
+  height: auto;
+}
+
+.inner-menu{
+  background: white;
 }
 
 @media (min-width: @autoOpenWidth) {
