@@ -929,14 +929,6 @@ hr {
   height: 64px;
   line-height: 64px;
 }
-.bar h1,
-.bar h2,
-.bar h3,
-.bar h4,
-.bar h5,
-.bar h6 {
-  margin: 0;
-}
 .bar .menuButton {
   margin-top: 11px;
   margin-bottom: 17px;
@@ -1031,8 +1023,16 @@ hr {
 .bar header h5,
 #menu header h5,
 .bar header h6,
-#menu header h6 {
+#menu header h6,
+.bar header a,
+#menu header a,
+.bar header p,
+#menu header p,
+.bar header span,
+#menu header span {
   float: left;
+  margin: 0;
+  line-height: 64px;
 }
 .bar ul li,
 #menu ul li {
