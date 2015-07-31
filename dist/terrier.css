@@ -1004,34 +1004,34 @@ hr {
   -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
   transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
 }
+.bar h1,
+#menu h1,
+.bar h2,
+#menu h2,
+.bar h3,
+#menu h3,
+.bar h4,
+#menu h4,
+.bar h5,
+#menu h5,
+.bar h6,
+#menu h6,
+.bar a,
+#menu a,
+.bar p,
+#menu p,
+.bar span,
+#menu span {
+  float: left;
+  margin: 0;
+  line-height: 64px;
+}
 .bar header,
 #menu header {
   color: #FFFFFF;
   background-color: #4fc1e9;
   font-size: 30px;
   height: 64px;
-  line-height: 64px;
-}
-.bar header h1,
-#menu header h1,
-.bar header h2,
-#menu header h2,
-.bar header h3,
-#menu header h3,
-.bar header h4,
-#menu header h4,
-.bar header h5,
-#menu header h5,
-.bar header h6,
-#menu header h6,
-.bar header a,
-#menu header a,
-.bar header p,
-#menu header p,
-.bar header span,
-#menu header span {
-  float: left;
-  margin: 0;
   line-height: 64px;
 }
 .bar ul li,
