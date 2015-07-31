@@ -62,4 +62,19 @@ if (document.readyState != 'loading') {
 
 function init() {
   initMenu();
+  //dropdowns();
+}
+
+function dropdowns() {
+  var toggle = '[data-toggle="dropdown"]';
+  var found = $(toggle);
+  console.log(found);
+  found.on('click', function () {
+    console.log('clicked');
+    var e = $(this);
+
+    var dm = e.parent().find('.dropdown-menu');
+    dm.toggleClass('open');
+
+  });
 }
