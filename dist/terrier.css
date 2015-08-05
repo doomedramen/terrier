@@ -992,7 +992,8 @@ hr {
 .bar .dropdown-menu li a {
   color: black;
 }
-#menu {
+#menu,
+.bar {
   z-index: 200;
   display: block;
   position: fixed;
@@ -1012,35 +1013,47 @@ hr {
   transform: translate(-100%, 0);
 }
 #menu h1,
+.bar h1,
 #menu h2,
+.bar h2,
 #menu h3,
+.bar h3,
 #menu h4,
+.bar h4,
 #menu h5,
+.bar h5,
 #menu h6,
+.bar h6,
 #menu a,
-#menu p {
+.bar a,
+#menu p,
+.bar p {
   float: left;
   margin: 0;
   line-height: 64px;
 }
-#menu .side-header {
+#menu .side-header,
+.bar .side-header {
   color: #FFFFFF;
   background-color: #4fc1e9;
   font-size: 30px;
   height: 64px;
   line-height: 64px;
 }
-#menu a {
+#menu a,
+.bar a {
   color: #FFFFFF;
   display: block;
 }
-#menu img {
+#menu img,
+.bar img {
   height: 54px;
   width: auto;
   float: left;
   margin: 5px 15px 5px 0;
 }
-#menu ul li {
+#menu ul li,
+.bar ul li {
   position: relative;
   display: block;
   font-size: 18px;
@@ -1051,26 +1064,35 @@ hr {
   margin: 0;
   height: 64px;
 }
-#menu ul li a {
+#menu ul li a,
+.bar ul li a {
   width: 100%;
   display: block;
   color: #000000;
 }
-#menu ul li a i {
+#menu ul li a i,
+.bar ul li a i {
   margin-left: 30px;
   float: left;
 }
-#menu ul li a span {
+#menu ul li a span,
+.bar ul li a span {
   margin-left: 30px;
 }
 #menu ul li:hover,
+.bar ul li:hover,
 #menu ul li:active,
-#menu ul li .active {
+.bar ul li:active,
+#menu ul li .active,
+.bar ul li .active {
   background: #f2f2f2;
 }
 #menu ul li:hover a,
+.bar ul li:hover a,
 #menu ul li:active a,
-#menu ul li .active a {
+.bar ul li:active a,
+#menu ul li .active a,
+.bar ul li .active a {
   color: #3bafda;
 }
 #panel:after {
