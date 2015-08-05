@@ -61,7 +61,21 @@
   }
 }
 
-#menu, .bar {
+.bar, #menu {
+  a {
+    color: #FFFFFF;
+    display: block;
+  }
+
+  img {
+    height: 54px;
+    width: auto;
+    float: left;
+    margin: 5px 15px 5px 0;
+  }
+}
+
+#menu {
   z-index: 200;
   display: block;
   position: fixed;
@@ -96,17 +110,7 @@
     line-height: 64px;
   }
 
-  a {
-    color: #FFFFFF;
-    display: block;
-  }
 
-  img {
-    height: 54px;
-    width: auto;
-    float: left;
-    margin: 5px 15px 5px 0;
-  }
 
   ul {
     li {
@@ -153,6 +157,7 @@
   -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
   transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
 }
+
 
 .inner-menu {
   background: white;
