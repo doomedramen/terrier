@@ -1004,6 +1004,26 @@ hr {
   float: left;
   margin: 5px 15px 5px 0;
 }
+.bar h1,
+#menu h1,
+.bar h2,
+#menu h2,
+.bar h3,
+#menu h3,
+.bar h4,
+#menu h4,
+.bar h5,
+#menu h5,
+.bar h6,
+#menu h6,
+.bar a,
+#menu a,
+.bar p,
+#menu p {
+  float: left;
+  margin: 0;
+  line-height: 64px;
+}
 #menu {
   z-index: 200;
   display: block;
@@ -1022,18 +1042,6 @@ hr {
   -ms-transform: translate(-100%, 0);
   -o-transform: translate(-100%, 0);
   transform: translate(-100%, 0);
-}
-#menu h1,
-#menu h2,
-#menu h3,
-#menu h4,
-#menu h5,
-#menu h6,
-#menu a,
-#menu p {
-  float: left;
-  margin: 0;
-  line-height: 64px;
 }
 #menu .side-header {
   color: #FFFFFF;
