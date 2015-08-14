@@ -78,7 +78,7 @@ input {
 }
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
-  .button-hover();
+  .transition-all();
   &.primary {
     color: #fff;
     background-color: @primary-color;
@@ -87,6 +87,11 @@ input {
       color: #fff;
       background-color: @primary-color-dark;
       border-color: @primary-color-dark;
+    }
+    &.hollow {
+      color: @primary-color;
+      background-color: @primary-color;
+      border-color: @primary-color;
     }
   }
   &.success {
@@ -98,6 +103,13 @@ input {
       background-color: @success-dark;
       border-color: @success-dark;
     }
+    &.hollow {
+      color: @success;
+      &:hover {
+        background-color: @success;
+        border-color: @success;
+      }
+    }
   }
   &.error {
     color: #fff;
@@ -108,6 +120,41 @@ input {
       background-color: @error-dark;
       border-color: @error-dark;
     }
+    &.hollow {
+      color: @error;
+      &:hover {
+        background-color: @error;
+        border-color: @error;
+      }
+    }
+  }
+  &.warning {
+    color: #fff;
+    background-color: @warning;
+    border-color: @warning;
+    &:hover, &:focus {
+      color: #fff;
+      background-color: @warning-dark;
+      border-color: @warning-dark;
+    }
+    &.hollow {
+      color: @warning;
+      &:hover {
+        background-color: @warning;
+        border-color: @warning;
+      }
+    }
+  }
+  &.hollow {
+    background-color: transparent;
+    &:hover, &:focus {
+      color: #fff;
+    }
+  }
+  &.big {
+    padding: 8px 40px;
+    height: auto;
+    font-size: .9rem;
   }
 }
 

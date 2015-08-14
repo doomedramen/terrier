@@ -1,15 +1,47 @@
 .bar {
   overflow: hidden;
+  &.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  //overflow: hidden;
   color: #ffffff;
   padding: 0;
   background-color: @bar-color;
   height: 64px;
   line-height: 64px;
+  z-index: 200;
+  a {
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    .transition-all();
+    &:hover {
+      color: @font-color;
+    }
+  }
+
+  img {
+    height: 54px;
+    width: auto;
+    float: left;
+    margin: 5px 15px 5px 0;
+  }
+  h1, h2, h3, h4, h5, h6, a, p {
+    float: left;
+    margin: 0;
+    line-height: 64px;
+  }
 
   ul {
     li {
-      margin-left: 8px;
+      margin-left: 16px;
       float: left;
+      list-style: none;
+      //text-transform: uppercase;
     }
   }
 
@@ -30,39 +62,21 @@
       cursor: pointer;
     }
   }
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 
-    display: block;
-    .open {
-      display: block;
-    }
-    li a {
-      color: black;
-    }
-  }
 }
 
-.bar, #menu {
+#menu {
+  z-index: 200;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: @menu-width;
+  overflow-y: auto;
+  background: @bg-color;
+  height: auto;
+
   a {
     color: #FFFFFF;
     display: block;
@@ -79,19 +93,6 @@
     margin: 0;
     line-height: 64px;
   }
-}
-
-#menu {
-  z-index: 200;
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: @menu-width;
-  overflow-y: auto;
-  background: @bg-color;
-  height: auto;
 
   -webkit-transition: transform .5s;
   transition: transform .5s;
@@ -102,8 +103,6 @@
   -o-transform: translate(-100%, 0);
   transform: translate(-100%, 0);
 
-
-
   .side-header {
     color: #FFFFFF;
     background-color: @bar-color;
@@ -111,8 +110,6 @@
     height: 64px;
     line-height: 64px;
   }
-
-
 
   ul {
     li {
@@ -159,7 +156,6 @@
   -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
   transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
 }
-
 
 .inner-menu {
   background: white;

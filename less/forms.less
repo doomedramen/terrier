@@ -58,11 +58,22 @@ input {
   }
 }
 
-input[disabled], textarea[disabled] {
+input[disabled], textarea[disabled]{
   background: #edf3f7;
   cursor: not-allowed;
   overflow: hidden;
   white-space: nowrap;
+  color: @border-color;
+  border: none;
+  &:hover, &:focus {
+    background: #edf3f7;
+    //cursor: not-allowed;
+    overflow: hidden;
+    white-space: nowrap;
+    color: @border-color;
+    border: none;
+  }
+
 }
 
 textarea:focus,
