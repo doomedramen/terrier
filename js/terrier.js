@@ -21,7 +21,6 @@ function initMenu() {
   }
 
   if (menuButton && panel) {
-    //kick it off
     menuButton.addEventListener('click', onMenuButton);
   }
 
@@ -59,17 +58,4 @@ if (document.readyState != 'loading') {
 
 function init() {
   initMenu();
-  //dropdowns();
-}
-
-function dropdowns() {
-  var toggle = '[data-toggle="dropdown"]';
-  var found = $(toggle);
-  found.on('click', function () {
-    var e = $(this);
-
-    var dm = e.parent().find('.dropdown-menu');
-    dm.toggleClass('open');
-
-  });
 }
