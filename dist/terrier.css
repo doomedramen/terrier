@@ -806,13 +806,6 @@ input[type="button"].big {
   height: auto;
   font-size: .9rem;
 }
-input[type="submit"].primary:focus,
-input[type="reset"].primary:focus,
-input[type="button"].primary:focus {
-  color: #fff;
-  background-color: #5d9cec;
-  border-color: #5d9cec;
-}
 input[type="email"],
 input[type="number"],
 input[type="search"],
