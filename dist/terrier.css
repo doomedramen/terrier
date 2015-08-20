@@ -1149,8 +1149,7 @@ hr {
   cursor: pointer;
 }
 #menu {
-  margin-top: 64px;
-  z-index: 200;
+  z-index: 220;
   display: block;
   position: fixed;
   left: 0;
