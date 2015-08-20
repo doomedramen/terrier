@@ -1132,6 +1132,7 @@ hr {
   list-style: none;
 }
 .bar .menuButton {
+  padding-top: 5px;
   float: left;
 }
 .bar .menuButton span {
