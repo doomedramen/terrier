@@ -1087,8 +1087,8 @@ hr {
   color: #ffffff;
   padding: 0;
   background-color: #4fc1e9;
-  height: 64px;
-  line-height: 64px;
+  height: 40px;
+  line-height: 40px;
   z-index: 200;
 }
 .bar.fixed-top {
@@ -1124,7 +1124,7 @@ hr {
 .bar p {
   float: left;
   margin: 0;
-  line-height: 64px;
+  line-height: 40px;
 }
 .bar ul li {
   margin-left: 16px;
@@ -1187,14 +1187,14 @@ hr {
 #menu p {
   float: left;
   margin: 0;
-  line-height: 64px;
+  line-height: 40px;
 }
 #menu .side-header {
   color: #FFFFFF;
   background-color: #4fc1e9;
   font-size: 30px;
-  height: 64px;
-  line-height: 64px;
+  height: 40px;
+  line-height: 40px;
 }
 #menu ul li {
   position: relative;
@@ -1205,7 +1205,7 @@ hr {
   float: left;
   width: 100%;
   margin: 0;
-  height: 64px;
+  height: 40px;
 }
 #menu ul li a {
   width: 100%;
