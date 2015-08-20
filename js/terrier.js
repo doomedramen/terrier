@@ -5,7 +5,6 @@ function initMenu() {
   var menuButton = document.querySelectorAll('.menuButton')[0];
 
   function onMenuButton() {
-    console.log('on menu');
     toggleClass(body, 'menuOpen');
     setTimeout(function () {
       menuButton.removeEventListener('click', onMenuButton, false);
@@ -14,7 +13,6 @@ function initMenu() {
   }
 
   function onPanel() {
-    console.log('on panel');
     removeClass(body, 'menuOpen');
     setTimeout(function () {
       panel.removeEventListener('click', onPanel, false);
@@ -24,7 +22,6 @@ function initMenu() {
 
   if (menuButton && panel) {
     //kick it off
-    console.log(menuButton, panel);
     menuButton.addEventListener('click', onMenuButton);
   }
 
@@ -68,9 +65,7 @@ function init() {
 function dropdowns() {
   var toggle = '[data-toggle="dropdown"]';
   var found = $(toggle);
-  console.log(found);
   found.on('click', function () {
-    console.log('clicked');
     var e = $(this);
 
     var dm = e.parent().find('.dropdown-menu');
