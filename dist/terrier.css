@@ -777,12 +777,7 @@ input[type="button"].warning:focus {
 button.warning.hollow,
 input[type="submit"].warning.hollow,
 input[type="reset"].warning.hollow,
-input[type="button"].warning.hollow,
-.button.warning:focus,
-button.warning:focus,
-input[type="submit"].warning:focus,
-input[type="reset"].warning:focus,
-input[type="button"].warning:focus {
+input[type="button"].warning.hollow {
   color: #ffce54;
 }
 .button.warning.hollow:hover,
@@ -790,11 +785,11 @@ button.warning.hollow:hover,
 input[type="submit"].warning.hollow:hover,
 input[type="reset"].warning.hollow:hover,
 input[type="button"].warning.hollow:hover,
-.button.warning:focus:hover,
-button.warning:focus:hover,
-input[type="submit"].warning:focus:hover,
-input[type="reset"].warning:focus:hover,
-input[type="button"].warning:focus:hover {
+.button.warning.hollow:focus,
+button.warning.hollow:focus,
+input[type="submit"].warning.hollow:focus,
+input[type="reset"].warning.hollow:focus,
+input[type="button"].warning.hollow:focus {
   background-color: #ffce54;
   border-color: #ffce54;
 }
