@@ -88,11 +88,10 @@ input {
       background-color: @primary-color-dark;
       border-color: @primary-color-dark;
     }
-    &.hollow, &.hollow:focus {
+    &.hollow {
       color: @primary-color;
       background-color: @primary-color;
       border-color: @primary-color;
-
     }
   }
   &.success {
@@ -104,9 +103,9 @@ input {
       background-color: @success-dark;
       border-color: @success-dark;
     }
-    &.hollow, &.hollow:focus {
+    &.hollow {
       color: @success;
-      &:hover {
+      &:hover, &:focus {
         background-color: @success;
         border-color: @success;
       }
@@ -121,9 +120,9 @@ input {
       background-color: @error-dark;
       border-color: @error-dark;
     }
-    &.hollow, &.hollow:focus {
+    &.hollow {
       color: @error;
-      &:hover {
+      &:hover, &:focus {
         background-color: @error;
         border-color: @error;
       }
@@ -138,7 +137,7 @@ input {
       background-color: @warning-dark;
       border-color: @warning-dark;
     }
-    &.hollow, &.hollow:focus {
+    &.hollow, &:focus {
       color: @warning;
       &:hover {
         background-color: @warning;
@@ -146,7 +145,7 @@ input {
       }
     }
   }
-  &.hollow, &.hollow:focus {
+  &.hollow {
     background-color: transparent;
     &:hover, &:focus {
       color: #fff;

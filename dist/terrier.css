@@ -659,12 +659,7 @@ input[type="button"].primary:hover {
 button.primary.hollow,
 input[type="submit"].primary.hollow,
 input[type="reset"].primary.hollow,
-input[type="button"].primary.hollow,
-.button.primary.hollow:focus,
-button.primary.hollow:focus,
-input[type="submit"].primary.hollow:focus,
-input[type="reset"].primary.hollow:focus,
-input[type="button"].primary.hollow:focus {
+input[type="button"].primary.hollow {
   color: #4fc1e9;
   background-color: #4fc1e9;
   border-color: #4fc1e9;
@@ -696,12 +691,7 @@ input[type="button"].success:focus {
 button.success.hollow,
 input[type="submit"].success.hollow,
 input[type="reset"].success.hollow,
-input[type="button"].success.hollow,
-.button.success.hollow:focus,
-button.success.hollow:focus,
-input[type="submit"].success.hollow:focus,
-input[type="reset"].success.hollow:focus,
-input[type="button"].success.hollow:focus {
+input[type="button"].success.hollow {
   color: #a0d468;
 }
 .button.success.hollow:hover,
@@ -709,11 +699,11 @@ button.success.hollow:hover,
 input[type="submit"].success.hollow:hover,
 input[type="reset"].success.hollow:hover,
 input[type="button"].success.hollow:hover,
-.button.success.hollow:focus:hover,
-button.success.hollow:focus:hover,
-input[type="submit"].success.hollow:focus:hover,
-input[type="reset"].success.hollow:focus:hover,
-input[type="button"].success.hollow:focus:hover {
+.button.success.hollow:focus,
+button.success.hollow:focus,
+input[type="submit"].success.hollow:focus,
+input[type="reset"].success.hollow:focus,
+input[type="button"].success.hollow:focus {
   background-color: #a0d468;
   border-color: #a0d468;
 }
@@ -744,12 +734,7 @@ input[type="button"].error:focus {
 button.error.hollow,
 input[type="submit"].error.hollow,
 input[type="reset"].error.hollow,
-input[type="button"].error.hollow,
-.button.error.hollow:focus,
-button.error.hollow:focus,
-input[type="submit"].error.hollow:focus,
-input[type="reset"].error.hollow:focus,
-input[type="button"].error.hollow:focus {
+input[type="button"].error.hollow {
   color: #ed5565;
 }
 .button.error.hollow:hover,
@@ -757,11 +742,11 @@ button.error.hollow:hover,
 input[type="submit"].error.hollow:hover,
 input[type="reset"].error.hollow:hover,
 input[type="button"].error.hollow:hover,
-.button.error.hollow:focus:hover,
-button.error.hollow:focus:hover,
-input[type="submit"].error.hollow:focus:hover,
-input[type="reset"].error.hollow:focus:hover,
-input[type="button"].error.hollow:focus:hover {
+.button.error.hollow:focus,
+button.error.hollow:focus,
+input[type="submit"].error.hollow:focus,
+input[type="reset"].error.hollow:focus,
+input[type="button"].error.hollow:focus {
   background-color: #ed5565;
   border-color: #ed5565;
 }
@@ -793,11 +778,11 @@ button.warning.hollow,
 input[type="submit"].warning.hollow,
 input[type="reset"].warning.hollow,
 input[type="button"].warning.hollow,
-.button.warning.hollow:focus,
-button.warning.hollow:focus,
-input[type="submit"].warning.hollow:focus,
-input[type="reset"].warning.hollow:focus,
-input[type="button"].warning.hollow:focus {
+.button.warning:focus,
+button.warning:focus,
+input[type="submit"].warning:focus,
+input[type="reset"].warning:focus,
+input[type="button"].warning:focus {
   color: #ffce54;
 }
 .button.warning.hollow:hover,
@@ -805,11 +790,11 @@ button.warning.hollow:hover,
 input[type="submit"].warning.hollow:hover,
 input[type="reset"].warning.hollow:hover,
 input[type="button"].warning.hollow:hover,
-.button.warning.hollow:focus:hover,
-button.warning.hollow:focus:hover,
-input[type="submit"].warning.hollow:focus:hover,
-input[type="reset"].warning.hollow:focus:hover,
-input[type="button"].warning.hollow:focus:hover {
+.button.warning:focus:hover,
+button.warning:focus:hover,
+input[type="submit"].warning:focus:hover,
+input[type="reset"].warning:focus:hover,
+input[type="button"].warning:focus:hover {
   background-color: #ffce54;
   border-color: #ffce54;
 }
@@ -817,12 +802,7 @@ input[type="button"].warning.hollow:focus:hover {
 button.hollow,
 input[type="submit"].hollow,
 input[type="reset"].hollow,
-input[type="button"].hollow,
-.button.hollow:focus,
-button.hollow:focus,
-input[type="submit"].hollow:focus,
-input[type="reset"].hollow:focus,
-input[type="button"].hollow:focus {
+input[type="button"].hollow {
   background-color: transparent;
 }
 .button.hollow:hover,
@@ -830,21 +810,11 @@ button.hollow:hover,
 input[type="submit"].hollow:hover,
 input[type="reset"].hollow:hover,
 input[type="button"].hollow:hover,
-.button.hollow:focus:hover,
-button.hollow:focus:hover,
-input[type="submit"].hollow:focus:hover,
-input[type="reset"].hollow:focus:hover,
-input[type="button"].hollow:focus:hover,
 .button.hollow:focus,
 button.hollow:focus,
 input[type="submit"].hollow:focus,
 input[type="reset"].hollow:focus,
-input[type="button"].hollow:focus,
-.button.hollow:focus:focus,
-button.hollow:focus:focus,
-input[type="submit"].hollow:focus:focus,
-input[type="reset"].hollow:focus:focus,
-input[type="button"].hollow:focus:focus {
+input[type="button"].hollow:focus {
   color: #fff;
 }
 .button.big,
