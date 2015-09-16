@@ -32,6 +32,9 @@ input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    //width: 100%;
+  }
+  &.wide {
     width: 100%;
   }
 }
@@ -58,7 +61,7 @@ input {
   }
 }
 
-input[disabled], textarea[disabled]{
+input[disabled], textarea[disabled] {
   background: #edf3f7;
   cursor: not-allowed;
   overflow: hidden;
@@ -132,27 +135,31 @@ label > .label-body {
   border-collapse: separate;
 }
 
-
-
 .input-group input {
   display: table-cell;
-  //border-top-right-radius: 0;
-  //border-bottom-right-radius: 0;
   position: relative;
   z-index: 2;
   float: left;
-  width: 100%;
   margin-bottom: 0;
-
+  width: auto;
 }
 
-.input-group *:first-child{
+.input-group *:first-child {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.input-group *:last-child{
+
+.input-group *:last-child {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.input-group *:not(:first-child) {
+  margin-left: -1px;
+}
+
+.input-group *:not(:first-child), .input-group *:not(:last-child) {
+  border-radius: 0;
 }
 
 //.input-group-btn {
