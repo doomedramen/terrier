@@ -1102,10 +1102,10 @@ hr {
   color: #3d4351;
 }
 .bar img {
-  height: 54px;
+  height: 40px;
   width: auto;
   float: left;
-  margin: 5px 15px 5px 0;
+  margin: 5px;
 }
 .bar h1,
 .bar h2,
