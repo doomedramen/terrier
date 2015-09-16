@@ -967,8 +967,7 @@ label > .label-body {
 .input-group *:not(:first-child) {
   margin-left: -1px;
 }
-.input-group *:not(:first-child),
-.input-group *:not(:last-child) {
+.input-group *:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
 ul {
