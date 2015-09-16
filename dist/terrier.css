@@ -866,6 +866,8 @@ input[type="password"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+input.wide {
   width: 100%;
 }
 textarea {
@@ -951,8 +953,8 @@ label > .label-body {
   position: relative;
   z-index: 2;
   float: left;
-  width: 100%;
   margin-bottom: 0;
+  width: auto;
 }
 .input-group *:first-child {
   border-top-right-radius: 0;
@@ -961,6 +963,13 @@ label > .label-body {
 .input-group *:last-child {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+.input-group *:not(:first-child) {
+  margin-left: -1px;
+}
+.input-group *:not(:first-child),
+.input-group *:not(:last-child) {
+  border-radius: 0;
 }
 ul {
   list-style: circle inside;
