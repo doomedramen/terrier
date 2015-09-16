@@ -132,10 +132,12 @@ label > .label-body {
   border-collapse: separate;
 }
 
+
+
 .input-group input {
   display: table-cell;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  //border-top-right-radius: 0;
+  //border-bottom-right-radius: 0;
   position: relative;
   z-index: 2;
   float: left;
@@ -144,20 +146,29 @@ label > .label-body {
 
 }
 
-.input-group-btn {
-  white-space: nowrap;
-  width: 1%;
-  vertical-align: middle;
-  display: table-cell;
-
+.input-group *:first-child{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
-
-.input-group button, .input-group input[type="button"], .input-group input[type="submit"] {
-  margin-left: -1px;
+.input-group *:last-child{
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  margin-bottom: 0;
-
-  height: 34px;
-  line-height: 34px;
 }
+
+//.input-group-btn {
+//  white-space: nowrap;
+//  width: 1%;
+//  vertical-align: middle;
+//  display: table-cell;
+//
+//}
+
+//.input-group button, .input-group input[type="button"], .input-group input[type="submit"] {
+//  margin-left: -1px;
+//  border-top-left-radius: 0;
+//  border-bottom-left-radius: 0;
+//  margin-bottom: 0;
+//
+//  height: 34px;
+//  line-height: 34px;
+//}
