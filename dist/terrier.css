@@ -1462,9 +1462,9 @@ img.center {
 .tooltip-top:hover:after,
 .tooltip-top:focus:before,
 .tooltip-top:focus:after {
-  -webkit-transform: translate(-50%);
-  -moz-transform: translate(-50%);
-  transform: translate(-50%);
+  -webkit-transform: translate(-50%, -12px);
+  -moz-transform: translate(-50%, -12px);
+  transform: translate(-50%, -12px);
 }
 /* Left */
 .tooltip-left:before,
@@ -1485,9 +1485,9 @@ img.center {
 .tooltip-left:hover:after,
 .tooltip-left:focus:before,
 .tooltip-left:focus:after {
-  -webkit-transform: translate(-50%, -12px);
-  -moz-transform: translate(-50%, -12px);
-  transform: translate(-50%, -12px);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  transform: translate(-50%);
 }
 /* Bottom */
 .tooltip-bottom:before,
