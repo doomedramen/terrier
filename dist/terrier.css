@@ -1413,7 +1413,8 @@ img.center {
 [data-tooltip]:after {
   z-index: 1000;
   padding: 8px;
-  width: 160px;
+  width: auto;
+  text-align: center;
   background-color: #ffffff;
   background-color: rgba(255, 255, 255, 0.9);
   color: #3d4351;
@@ -1443,11 +1444,6 @@ img.center {
   border-top-color: rgba(188, 169, 169, 0.9);
 }
 /* Horizontally align top/bottom tooltips */
-[data-tooltip]:after,
-.tooltip:after,
-.tooltip-top:after {
-  margin-left: -80px;
-}
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after,
 [data-tooltip]:focus:before,
