@@ -1483,9 +1483,9 @@ img.center {
 .tooltip-left:hover:after,
 .tooltip-left:focus:before,
 .tooltip-left:focus:after {
-  -webkit-transform: translateX(-12px);
-  -moz-transform: translateX(-12px);
-  transform: translateX(-12px);
+  -webkit-transform: translate(50%, -12px);
+  -moz-transform: translate(50%, -12px);
+  transform: translate(50%, -12px);
 }
 /* Bottom */
 .tooltip-bottom:before,
@@ -1526,9 +1526,9 @@ img.center {
 .tooltip-right:hover:after,
 .tooltip-right:focus:before,
 .tooltip-right:focus:after {
-  -webkit-transform: translateX(12px);
-  -moz-transform: translateX(12px);
-  transform: translateX(12px);
+  -webkit-transform: translate(50%, 12px);
+  -moz-transform: translate(50%, 12px);
+  transform: translate(50%, 12px);
 }
 /* Move directional arrows down a bit for left/right tooltips */
 .tooltip-left:before,
