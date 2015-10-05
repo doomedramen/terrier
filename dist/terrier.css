@@ -1446,9 +1446,9 @@ img.center {
 /* Horizontally align top/bottom tooltips */
 [data-tooltip]:after,
 .tooltip:hover:after {
-  -webkit-transform: translate(-50%, 12px);
-  -moz-transform: translate(-50%, 12px);
-  transform: translate(-50%, 12px);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after,
