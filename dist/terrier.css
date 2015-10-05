@@ -1444,6 +1444,12 @@ img.center {
   border-top-color: rgba(188, 169, 169, 0.9);
 }
 /* Horizontally align top/bottom tooltips */
+[data-tooltip]:after,
+.tooltip:hover:after {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after,
 [data-tooltip]:focus:before,

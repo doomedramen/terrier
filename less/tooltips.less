@@ -101,6 +101,13 @@
   //margin-left: -80px;
 }
 
+[data-tooltip]:after,
+.tooltip:hover:after{
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after,
 [data-tooltip]:focus:before,
