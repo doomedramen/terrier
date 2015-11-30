@@ -568,13 +568,13 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 34px;
+  height: 36px;
   padding: 0 30px;
   color: #5d9cec;
   text-align: center;
   font-size: .7rem;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 36px;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -802,7 +802,7 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"] {
-  height: 38px;
+  height: 36px;
   padding: 6px 10px;
   background-color: #fff;
   border: 1px solid #c3c9d1;
@@ -815,7 +815,7 @@ input[type="password"] {
 }
 textarea,
 select {
-  height: 34px;
+  height: 36px;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
@@ -836,7 +836,7 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"] {
-  height: 34px;
+  height: 36px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
