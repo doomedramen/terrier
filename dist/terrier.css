@@ -1423,3 +1423,25 @@ input.toggle-round:checked + label:after.success {
 input.toggle-round:checked + label:after.error {
   background-color: #ed5565;
 }
+.label {
+  border-radius: 4px;
+  border: 1px solid #3d4351;
+  padding: 4px;
+  color: #3d4351;
+}
+.label .error {
+  border-color: #ed5565;
+  color: #ed5565;
+}
+.label .warning {
+  border-color: #ffce54;
+  color: #ffce54;
+}
+.label .primary {
+  border-color: #4fc1e9;
+  color: #4fc1e9;
+}
+.label .success {
+  border-color: #a0d468;
+  color: #a0d468;
+}
